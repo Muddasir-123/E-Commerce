@@ -24,18 +24,18 @@ export default function Nav2() {
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center space-x-8">
                     <nav className="flex space-x-6 text-gray-500">
-                    <a href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</a>
-                        <a href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</a>
-                        <a href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</a>
-                        <a href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</a>
-                        <a href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</a>
-                        <a href="/" className="block px-4 py-2 text-gray-600 hover:text-black">Tableware</a>
-                        <a href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</a>
+                    <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</Link>
+                        <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</Link>
+                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</Link>
+                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</Link>
+                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</Link>
+                        <Link href="/" className="block px-4 py-2 text-gray-600 hover:text-black">Tableware</Link>
+                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</Link>
                     </nav>
                     <div className="flex items-center space-x-6 text-gray-500">
-                        <a href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-search"></i></a>
-                        <a href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-shopping-cart"></i></a>
-                        <a href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-user"></i></a>
+                        <Link href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-search"></i></Link>
+                        <Link href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-shopping-cart"></i></Link>
+                        <Link href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-user"></i></Link>
                     </div>
                 </div>
             </div>
@@ -44,17 +44,17 @@ export default function Nav2() {
             {isOpen && (
                 <div className="md:hidden bg-white shadow-md">
                     <nav className="flex flex-col space-y-4 p-4 text-gray-500">
-                    <a href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</a>
-                        <a href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</a>
-                        <a href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</a>
-                        <a href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</a>
-                        <a href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</a>
-                        <a href="/" className="block px-4 py-2 text-gray-600 hover:text-black">Tableware</a>
-                        <a href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</a>
+                    <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</Link>
+                        <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</Link>
+                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</Link>
+                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</Link>
+                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</Link>
+                        <Link href="/" className="block px-4 py-2 text-gray-600 hover:text-black">Tableware</Link>
+                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</Link>
                         <div className="flex items-center space-x-6 text-gray-500">
-                            <a href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-search"></i></a>
-                            <a href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-shopping-cart"></i></a>
-                            <a href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-user"></i></a>
+                            <Link href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-search"></i></Link>
+                            <Link href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-shopping-cart"></i></Link>
+                            <Link href="#" className="hover:text-gray-800 text-xl"><i className="fas fa-user"></i></Link>
                         </div>
                     </nav>
                 </div>

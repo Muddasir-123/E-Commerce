@@ -1,4 +1,8 @@
 import Image from "next/image";
+import chair from '../assets/image/chair1.jpeg'
+import mudbottles from '../assets/image/mudbottles.png'
+import lamp from '../assets/image/lamp.png'
+import bottle from '../assets/image/bottle.png'
 export const Listing4 = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-white px-4 py-8">
@@ -6,7 +10,7 @@ export const Listing4 = () => {
                 <div className="flex flex-col items-center">
                     <div className="w-full h-64 relative rounded-lg overflow-hidden shadow-lg bg-gray-100">
                         <Image
-                            src="https://placehold.co/300x400"
+                            src={chair}
                             alt="A stylish black chair with wooden legs"
                             className="w-full h-full object-cover"
                         />
@@ -16,8 +20,8 @@ export const Listing4 = () => {
                 </div>
                 <div className="flex flex-col items-center">
                     <div className="w-full h-64 relative rounded-lg overflow-hidden shadow-lg bg-gray-100">
-                        <img
-                            src="https://placehold.co/300x400"
+                        <Image
+                            src={mudbottles}
                             alt="A set of rustic vases on a concrete pedestal"
                             className="w-full h-full object-cover"
                         />
@@ -27,8 +31,8 @@ export const Listing4 = () => {
                 </div>
                 <div className="flex flex-col items-center">
                     <div className="w-full h-64 relative rounded-lg overflow-hidden shadow-lg bg-gray-100">
-                        <img
-                            src="https://placehold.co/300x400"
+                        <Image
+                            src={bottle}
                             alt="A tall, sleek vase on a white surface"
                             className="w-full h-full object-cover"
                         />
@@ -39,7 +43,7 @@ export const Listing4 = () => {
                 <div className="flex flex-col items-center">
                     <div className="w-full h-64 relative rounded-lg overflow-hidden shadow-lg bg-gray-100">
                         <Image
-                            src="https://placehold.co/300x400"
+                            src={lamp}
                             alt="A modern hanging lamp with a blue background"
                             className="w-full h-full object-cover"
                         />

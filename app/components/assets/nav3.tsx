@@ -14,18 +14,18 @@ export default function Nav3() {
 
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex space-x-6 text-gray-600">
-                        <a href="#" className="hover:text-gray-800 transition">About us</a>
-                        <a href="#" className="hover:text-gray-800 transition">Contact</a>
-                        <a href="#" className="hover:text-gray-800 transition">Blog</a>
-                        <a href="#" className="hover:text-gray-800 transition">
+                        <Link href="#" className="hover:text-gray-800 transition">About us</Link>
+                        <Link href="#" className="hover:text-gray-800 transition">Contact</Link>
+                        <Link href="#" className="hover:text-gray-800 transition">Blog</Link>
+                        <Link href="#" className="hover:text-gray-800 transition">
                             <i className="fas fa-search"></i>
-                        </a>
-                        <a href="#" className="hover:text-gray-800 transition">
+                        </Link>
+                        <Link href="#" className="hover:text-gray-800 transition">
                             <i className="fas fa-shopping-cart"></i>
-                        </a>
-                        <a href="#" className="hover:text-gray-800 transition">
+                        </Link>
+                        <Link href="#" className="hover:text-gray-800 transition">
                             <i className="fas fa-user"></i>
-                        </a>
+                        </Link>
                     </nav>
 
                     {/* Mobile Menu Button */}
@@ -40,18 +40,18 @@ export default function Nav3() {
                 {isOpen && (
                     <div className="md:hidden bg-white shadow-sm">
                         <nav className="px-4 py-4 space-y-2 text-gray-600">
-                            <a href="#" className="block hover:text-gray-800 transition">About us</a>
-                            <a href="#" className="block hover:text-gray-800 transition">Contact</a>
-                            <a href="#" className="block hover:text-gray-800 transition">Blog</a>
-                            <a href="#" className="block hover:text-gray-800 transition">
+                            <Link href="#" className="block hover:text-gray-800 transition">About us</Link>
+                            <Link href="#" className="block hover:text-gray-800 transition">Contact</Link>
+                            <Link href="#" className="block hover:text-gray-800 transition">Blog</Link>
+                            <Link href="#" className="block hover:text-gray-800 transition">
                                 <i className="fas fa-search"></i>
-                            </a>
-                            <a href="#" className="block hover:text-gray-800 transition">
+                            </Link>
+                            <Link href="#" className="block hover:text-gray-800 transition">
                                 <i className="fas fa-shopping-cart"></i>
-                            </a>
-                            <a href="#" className="block hover:text-gray-800 transition">
+                            </Link>
+                            <Link href="#" className="block hover:text-gray-800 transition">
                                 <i className="fas fa-user"></i>
-                            </a>
+                            </Link>
                         </nav>
                     </div>
                 )}
@@ -60,15 +60,15 @@ export default function Nav3() {
             {/* Product Categories */}
             <div className="bg-gray-50 py-4">
                 <div className="container mx-auto px-4 flex space-x-8 text-gray-600 overflow-x-auto">
-                <a href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</a>
-                        <a href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</a>
-                        <a href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</a>
-                        <a href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</a>
-                        <a href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</a>
-                        <a href="/" className="block px-4 py-2 text-gray-600 hover:text-black">Tableware</a>
-                        <a href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</a>
+                <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</Link>
+                        <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</Link>
+                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</Link>
+                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</Link>
+                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</Link>
+                        <Link href="/" className="block px-4 py-2 text-gray-600 hover:text-black">Tableware</Link>
+                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</Link>
                     <span className="text-red-500">•</span>
-                </div>
+                </div>Link
             </div>
         </div>
     );

@@ -8,9 +8,9 @@ function Nav1() {
     return (
         <div className="w-full border-b border-gray-200">
             <div className="flex items-center justify-between py-4 px-6 max-w-screen-xl mx-auto">
-                <a href="#" className="text-gray-700">
+                <Link href="#" className="text-gray-700">
                     <i className="fa fa-search text-xl"></i>
-                </a>
+                </Link>
                 <h1 className="text-2xl font-medium text-gray-800">
                     <Link href="/">Avion</Link></h1>
                 <div className="flex items-center space-x-6">
@@ -44,13 +44,13 @@ function Nav1() {
                     <div
                         className={`absolute bg-white shadow-lg rounded-md mt-2 w-48 ${isOpen ? 'block' : 'hidden'}`}
                     >
-                        <a href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</a>
-                        <a href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</a>
-                        <a href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</a>
-                        <a href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</a>
-                        <a href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</a>
-                        <a href="/" className="block px-4 py-2 text-gray-600 hover:text-black">Tableware</a>
-                        <a href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</a>
+                        <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</Link>
+                        <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</Link>
+                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</Link>
+                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</Link>
+                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</Link>
+                        <Link href="/" className="block px-4 py-2 text-gray-600 hover:text-black">Tableware</Link>
+                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</Link>
                     </div>
                 </div>
             </div>

@@ -22,12 +22,12 @@ export default function Footer1() {
                     <div>
                         <h3 className="font-bold mb-4 text-xl">Categories</h3>
                         <ul className="space-y-2">
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Crockery</a></li>
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Furniture</a></li>
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Homeware</a></li>
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Plant pots</a></li>
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Chairs</a></li>
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Crockery</a></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Crockery</Link></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Furniture</Link></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Homeware</Link></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Plant pots</Link></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Chairs</Link></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Crockery</Link></li>
                         </ul>
                     </div>
 
@@ -35,11 +35,11 @@ export default function Footer1() {
                     <div>
                         <h3 className="font-bold mb-4 text-xl">Our Company</h3>
                         <ul className="space-y-2">
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">About us</a></li>
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Vacancies</a></li>
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Contact us</a></li>
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Privacy</a></li>
-                            <li><a href="#" className="hover:text-gray-400 transition-colors duration-200">Returns policy</a></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">About us</Link></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Vacancies</Link></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Contact us</Link></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Privacy</Link></li>
+                            <li><Link href="#" className="hover:text-gray-400 transition-colors duration-200">Returns policy</Link></li>
                         </ul>
                     </div>
 
@@ -63,24 +63,24 @@ export default function Footer1() {
                 <div className="border-t border-gray-700 mt-8 pt-4 flex flex-col sm:flex-row justify-between items-center">
                     <p className="text-sm text-center sm:text-left">&copy; 2022 Avion LTD</p>
                     <div className="flex space-x-6 mt-4 sm:mt-0">
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
+                        <Link href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
                             <i className="fab fa-linkedin text-xl"></i>
-                        </a>
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
+                        </Link>
+                        <Link href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
                             <i className="fab fa-facebook text-xl"></i>
-                        </a>
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
+                        </Link>Link
+                        <Link href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
                             <i className="fab fa-instagram text-xl"></i>
-                        </a>
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
+                        </Link>
+                        <Link href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
                             <i className="fab fa-skype text-xl"></i>
-                        </a>
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
+                        </Link>
+                        <Link href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
                             <i className="fab fa-twitter text-xl"></i>
-                        </a>
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
+                        </Link>
+                        <Link href="#" className="text-white hover:text-gray-400 transition-colors duration-200">
                             <i className="fab fa-pinterest text-xl"></i>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

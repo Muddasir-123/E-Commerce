@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <footer className="bg-[#2A254B] text-gray-300 py-8">
@@ -20,24 +22,24 @@ export default function Footer() {
                     <div>
                         <h2 className="text-lg font-bold mb-4">Social Links</h2>
                         <div className="flex space-x-6">
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                            <Link href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
                                 <i className="fab fa-linkedin text-xl"></i>
-                            </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                            </Link>
+                            <Link href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
                                 <i className="fab fa-facebook text-xl"></i>
-                            </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                            </Link>
+                            <Link href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
                                 <i className="fab fa-instagram text-xl"></i>
-                            </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                            </Link>
+                            <Link href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
                                 <i className="fab fa-skype text-xl"></i>
-                            </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                            </Link>
+                            <Link href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
                                 <i className="fab fa-twitter text-xl"></i>
-                            </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                            </Link>
+                            <Link href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
                                 <i className="fab fa-pinterest text-xl"></i>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -45,11 +47,11 @@ export default function Footer() {
                     <div>
                         <h2 className="text-lg font-bold mb-4">Menu</h2>
                         <ul className="space-y-2">
-                            <li><a href="#" className="text-gray-300 hover:text-white">New arrivals</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Best sellers</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Recently viewed</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Popular this week</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">All products</a></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">New arrivals</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Best sellers</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Recently viewed</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Popular this week</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">All products</Link></li>
                         </ul>
                     </div>
 
@@ -57,12 +59,12 @@ export default function Footer() {
                     <div>
                         <h2 className="text-lg font-bold mb-4">Categories</h2>
                         <ul className="space-y-2">
-                            <li><a href="#" className="text-gray-300 hover:text-white">Crockery</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Furniture</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Homeware</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Plant pots</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Chairs</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Crockery</a></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Crockery</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Furniture</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Homeware</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Plant pots</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Chairs</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Crockery</Link></li>
                         </ul>
                     </div>
 
@@ -70,11 +72,11 @@ export default function Footer() {
                     <div>
                         <h2 className="text-lg font-bold mb-4">Our Company</h2>
                         <ul className="space-y-2">
-                            <li><a href="#" className="text-gray-300 hover:text-white">About us</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Vacancies</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Contact us</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Privacy</a></li>
-                            <li><a href="#" className="text-gray-300 hover:text-white">Returns policy</a></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">About us</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Vacancies</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Contact us</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Privacy</Link></li>
+                            <li><Link href="#" className="text-gray-300 hover:text-white">Returns policy</Link></li>
                         </ul>
                     </div>
                 </div>

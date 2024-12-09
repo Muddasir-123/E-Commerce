@@ -1,10 +1,12 @@
+import Image from "next/image";
+import chair from '../assets/image/chairshadiw.jpeg'
 export default function Checkout2() {
     return (
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center min-h-screen p-6 lg:p-16 gap-10 lg:gap-16">
             {/* Image Section */}
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-                <img 
-                    src="https://placehold.co/600x600" 
+                <Image 
+                    src={chair}
                     alt="A black metal chair with a minimalist design" 
                     className="max-w-full h-auto rounded-lg shadow-xl transform transition duration-500 ease-in-out hover:scale-105"
                 />

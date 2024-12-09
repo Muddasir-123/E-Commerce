@@ -1,10 +1,11 @@
 import Image from 'next/image'
+import hero from '../assets/image/hero.png'
 export default function App4() {
     return (
         <div className="relative w-full h-screen flex items-center justify-center">
             {/* Background Image */}
             <Image
-                src="https://placehold.co/1920x1080" 
+                src={hero} 
                 alt="Background with a shadow on a wall" 
                 className="absolute w-full h-full object-cover"
             />

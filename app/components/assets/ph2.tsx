@@ -14,5 +14,4 @@ const Pageheader2 = () => {
         </div>
     );
 };
-
 export default Pageheader2;

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import chair from '../assets/image/chair2.png'
 const Main = () => {
     return (
         <div className="font-sans">
@@ -7,7 +8,7 @@ const Main = () => {
                 {/* Image Section */}
                 <div className="w-full lg:w-1/2 flex justify-center mb-6 lg:mb-0">
                     <Image 
-                        src="https://placehold.co/720x480" 
+                        src={chair} 
                         alt="Modern living room with a black sofa and a plant" 
                         className="w-full h-auto object-cover rounded-lg shadow-lg"
                     />
