@@ -60,13 +60,13 @@ export default function Nav3() {
             {/* Product Categories */}
             <div className="bg-gray-50 py-4">
                 <div className="container mx-auto px-4 flex space-x-8 text-gray-600 overflow-x-auto">
-                <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</Link>
-                        <Link href="http://localhost:3000/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</Link>
-                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</Link>
-                        <Link href="http://localhost:3000/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</Link>
-                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</Link>
+                <Link href="/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Plant pots</Link>
+                        <Link href="/shopping" className="block px-4 py-2 text-gray-600 hover:text-black">Ceramics</Link>
+                        <Link href="/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Tables</Link>
+                        <Link href="/Products" className="block px-4 py-2 text-gray-600 hover:text-black">Chairs</Link>
+                        <Link href="/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Crockery</Link>
                         <Link href="/" className="block px-4 py-2 text-gray-600 hover:text-black">Tableware</Link>
-                        <Link href="http://localhost:3000/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</Link>
+                        <Link href="/ProductListing" className="block px-4 py-2 text-gray-600 hover:text-black">Cutlery</Link>
                     <span className="text-red-500">•</span>
                 </div>Link
             </div>
