@@ -17,9 +17,10 @@ const Feature2 = () => {
             {/* Text Section */}
             <div className="md:w-1/2 flex items-center justify-center p-6 lg:p-12 bg-white">
                 <div className="max-w-lg space-y-6">
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 mb-4 leading-tight">
-                        Our service isn't just personal, it's actually hyper personally exquisite
-                    </h1>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 mb-4 leading-tight">
+    Our service isn&apos;t just personal, it&apos;s actually hyper personally exquisite
+</h1>
+
                     <p className="text-lg md:text-xl text-gray-700">
                         When we started Avion, the idea was simple. Make high-quality furniture affordable and available for the mass market.
                     </p>
@@ -35,4 +36,4 @@ const Feature2 = () => {
     );
 };
 
-export default Feature2;
+export default Feature2

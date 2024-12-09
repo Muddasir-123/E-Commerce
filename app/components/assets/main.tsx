@@ -16,9 +16,10 @@ const Main = () => {
 
                 {/* Text Section */}
                 <div className="w-full lg:w-1/2 p-6 lg:p-8">
-                    <h2 className="text-2xl lg:text-3xl font-semibold mb-4 text-center lg:text-left">
-                        Our service isn't just personal, it's actually hyper personal & exquisite
-                    </h2>
+                <h2 className="text-2xl lg:text-3xl font-semibold mb-4 text-center lg:text-left">
+    Our service isn&apos;t just personal, it&apos;s actually hyper personal &amp; exquisite
+</h2>
+
                     <p className="text-gray-600 mb-6 text-center lg:text-left">
                         When we started Fusion, the idea was simple. Make high-quality furniture affordable and available to the mass market.
                     </p>
@@ -57,11 +58,12 @@ const Main = () => {
                     
                     {/* Service Card 3 */}
                     <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-                        <div className="bg-white p-6 text-center shadow-lg rounded-lg">
-                            <i className="fas fa-tags text-3xl mb-4 text-gray-800"></i>
-                            <h4 className="text-xl font-semibold mb-2">Unbeatable prices</h4>
-                            <p className="text-gray-600">For our materials and quality you won't find better prices anywhere</p>
-                        </div>
+                    <div className="bg-white p-6 text-center shadow-lg rounded-lg">
+    <i className="fas fa-tags text-3xl mb-4 text-gray-800"></i>
+    <h4 className="text-xl font-semibold mb-2">Unbeatable prices</h4>
+    <p className="text-gray-600">For our materials and quality you won&apos;t find better prices anywhere</p>
+</div>
+
                     </div>
                     
                     {/* Service Card 4 */}

@@ -32,8 +32,9 @@ const Feature4 = () => {
                         Unbeatable prices
                     </h2>
                     <p className="text-sm sm:text-base text-gray-600">
-                        For our materials and quality you won't find better prices anywhere
-                    </p>
+    For our materials and quality you won&apos;t find better prices anywhere
+</p>
+
                 </div>
                 {/* Feature 4 */}
                 <div className="bg-white p-6 text-center shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
