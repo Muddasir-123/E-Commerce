@@ -1,10 +1,11 @@
+import Image from "next/image";
 export const Listing4 = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-white px-4 py-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
                 <div className="flex flex-col items-center">
                     <div className="w-full h-64 relative rounded-lg overflow-hidden shadow-lg bg-gray-100">
-                        <img
+                        <Image
                             src="https://placehold.co/300x400"
                             alt="A stylish black chair with wooden legs"
                             className="w-full h-full object-cover"
@@ -37,7 +38,7 @@ export const Listing4 = () => {
                 </div>
                 <div className="flex flex-col items-center">
                     <div className="w-full h-64 relative rounded-lg overflow-hidden shadow-lg bg-gray-100">
-                        <img
+                        <Image
                             src="https://placehold.co/300x400"
                             alt="A modern hanging lamp with a blue background"
                             className="w-full h-full object-cover"

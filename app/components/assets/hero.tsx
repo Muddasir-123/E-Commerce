@@ -1,3 +1,4 @@
+import Image from "next/image";
 function Hero() {
     return (
         <div className="font-sans">
@@ -41,7 +42,7 @@ function Hero() {
 
                 {/* Image Section */}
                 <div className="md:w-1/2 mt-6 md:mt-0">
-                    <img 
+                    <Image
                         src="https://placehold.co/720x480" 
                         alt="A cozy living room setup with plants and cushions" 
                         className="w-full h-auto rounded-md shadow-lg transform hover:scale-105 transition duration-300"

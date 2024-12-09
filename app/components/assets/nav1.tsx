@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 function Nav1() {
@@ -10,7 +11,8 @@ function Nav1() {
                 <a href="#" className="text-gray-700">
                     <i className="fa fa-search text-xl"></i>
                 </a>
-                <h1 className="text-2xl font-medium text-gray-800">Avion</h1>
+                <h1 className="text-2xl font-medium text-gray-800">
+                    <Link href="/">Avion</Link></h1>
                 <div className="flex items-center space-x-6">
                     <i className="fas fa-shopping-cart text-xl text-gray-700"></i>
                     <i className="fas fa-user text-xl text-gray-700"></i>
@@ -19,13 +21,13 @@ function Nav1() {
             <hr />
             {/* Desktop Navigation */}
             <div className="hidden md:flex justify-center space-x-8 py-2 text-gray-600">
-                <a href="#" className="hover:text-black text-sm font-medium transition">Plant pots</a>
-                <a href="#" className="hover:text-black text-sm font-medium transition">Ceramics</a>
-                <a href="#" className="hover:text-black text-sm font-medium transition">Tables</a>
-                <a href="#" className="hover:text-black text-sm font-medium transition">Chairs</a>
-                <a href="#" className="hover:text-black text-sm font-medium transition">Crockery</a>
-                <a href="#" className="hover:text-black text-sm font-medium transition">Tableware</a>
-                <a href="#" className="hover:text-black text-sm font-medium transition">Cutlery</a>
+                <Link href="http://localhost:3000/shopping" className="hover:text-black text-sm font-medium transition">Plant pots</Link>
+                <Link href="http://localhost:3000/shopping" className="hover:text-black text-sm font-medium transition">Ceramics</Link>
+                <Link href="http://localhost:3000/Products" className="hover:text-black text-sm font-medium transition">Tables</Link>
+                <Link href="http://localhost:3000/Products" className="hover:text-black text-sm font-medium transition">Chairs</Link>
+                <Link href="http://localhost:3000/shopping" className="hover:text-black text-sm font-medium transition">Crockery</Link>
+                <Link href="http://localhost:3000/Products" className="hover:text-black text-sm font-medium transition">Tableware</Link>
+                <Link href="http://localhost:3000/shopping" className="hover:text-black text-sm font-medium transition">Cutlery</Link>
             </div>
 
             {/* Mobile Dropdown Navigation */}

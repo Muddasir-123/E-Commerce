@@ -1,7 +1,6 @@
-import Chair from './image/chair1.jpeg';
-import Image from 'next/image';
-
-export default function Home() {
+import chair from '../assets/image/chair1.jpeg'
+import Image from "next/image";
+function Home() {
     return (
         <div className="flex flex-col md:flex-row h-screen">
             {/* Left Section */}
@@ -19,18 +18,15 @@ export default function Home() {
 
             {/* Right Section */}
             <div className="bg-[#A3C7C9] flex justify-center items-center md:w-1/2 h-full">
-                <div className="relative w-full h-full max-w-[600px] mx-auto">
+                <div className="relative w-full h-full max-w-[600px] mx-auto flex justify-center items-center">
                     <Image
-                        src={Chair}
+                        src={chair}
                         alt="A modern black chair with wooden legs"
-                        layout="responsive"
-                        width={600}
-                        height={500}
-                        objectFit="cover"
-                        className="rounded-lg shadow-lg"
+                        className="rounded-lg shadow-lg object-cover w-full h-full"
                     />
                 </div>
             </div>
         </div>
     );
 }
+export default Home

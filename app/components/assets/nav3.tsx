@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Nav3() {
@@ -9,7 +10,7 @@ export default function Nav3() {
             <header className="bg-white shadow-sm">
                 <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                     {/* Logo */}
-                    <div className="text-2xl font-medium text-gray-800">Avion</div>
+                    <div className="text-2xl font-medium text-gray-800"><Link href="/">Avion</Link></div>
 
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex space-x-6 text-gray-600">

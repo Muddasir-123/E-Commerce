@@ -1,9 +1,10 @@
+import Image from "next/image";
 export const Hero = () => {
     return (
         <div className="flex items-center justify-center min-h-screen bg-purple-100">
             <div className="relative w-full h-full">
                 {/* Background Image */}
-                <img 
+                <Image
                     src="https://placehold.co/1600x900" 
                     alt="A modern wooden nightstand with a lamp and decorative items" 
                     className="w-full h-full object-cover"

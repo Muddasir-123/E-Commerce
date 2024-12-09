@@ -15,6 +15,7 @@ export function Listing3() {
                             alt="A stylish black chair with wooden legs against a teal background"
                             layout="fill" 
                             objectFit="contain" 
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <h2 className="mt-4 text-lg font-semibold">The Dandy Chair</h2>
@@ -28,6 +29,7 @@ export function Listing3() {
                             alt="A set of rustic vases on a concrete pedestal against a beige background"
                             layout="fill" 
                             objectFit="contain" 
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <h2 className="mt-4 text-lg font-semibold">Rustic Vase Set</h2>
@@ -41,6 +43,7 @@ export function Listing3() {
                             alt="A sleek, tall vase on a white surface against a dark grey background"
                             layout="fill" 
                             objectFit="contain" 
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <h2 className="mt-4 text-lg font-semibold">The Silky Vase</h2>
@@ -54,6 +57,7 @@ export function Listing3() {
                             alt="A modern hanging lamp with a black shade and warm light against a blue background"
                             layout="fill" 
                             objectFit="contain" 
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <h2 className="mt-4 text-lg font-semibold">The Lucy Lamp</h2>

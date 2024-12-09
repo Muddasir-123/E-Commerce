@@ -1,9 +1,10 @@
+import Image from "next/image";
 export default function Sign1() {
     return (
         <div className="flex flex-col md:flex-row h-screen">
             {/* Image Section */}
             <div className="flex-1 bg-gray-100">
-                <img 
+                <Image
                     src="https://placehold.co/600x800" 
                     alt="A modern living room with a black sofa and a vase with branches" 
                     className="w-full h-full object-cover"

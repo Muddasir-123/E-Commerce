@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Nav2() {
@@ -8,7 +9,7 @@ export default function Nav2() {
         <div className="border-b border-gray-200">
             <div className="flex items-center justify-between p-4 max-w-screen-xl mx-auto">
                 {/* Logo */}
-                <div className="text-2xl font-semibold text-gray-800">Avion</div>
+                <div className="text-2xl font-semibold text-gray-800"><Link href="/">Avion</Link></div>
 
                 {/* Mobile Menu Button */}
                 <div className="md:hidden">

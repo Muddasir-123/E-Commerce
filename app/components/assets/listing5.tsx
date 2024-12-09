@@ -1,3 +1,4 @@
+import Image from "next/image";
 const products = [
     {
         name: "The Dandy Chair",
@@ -32,7 +33,7 @@ export default function Listing5() {
                 {products.map((product, index) => (
                     <div key={index} className="flex flex-col items-center bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <div className="w-full h-64 relative rounded-lg overflow-hidden bg-gray-100 mb-4">
-                            <img
+                            <Image
                                 src={product.image}
                                 alt={product.alt}
                                 className="w-full h-full object-cover"

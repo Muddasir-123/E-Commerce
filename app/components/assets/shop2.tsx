@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ShoppingCart() {
     return (
         <div className="max-w-7xl mx-auto p-6">
@@ -13,7 +14,7 @@ export default function ShoppingCart() {
                 {/* Product 1 */}
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
                     <div className="flex items-center space-x-4">
-                        <img src="https://placehold.co/100x100" alt="Graystone vase" className="w-24 h-24 object-cover"/>
+                        <Image src="https://placehold.co/100x100" alt="Graystone vase" className="w-24 h-24 object-cover"/>
                         <div>
                             <h2 className="font-semibold text-lg sm:text-xl">Graystone vase</h2>
                             <p className="text-gray-500">A timeless ceramic vase with a tri color grey glaze.</p>
@@ -33,7 +34,7 @@ export default function ShoppingCart() {
                 {/* Product 2 */}
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
                     <div className="flex items-center space-x-4">
-                        <img src="https://placehold.co/100x100" alt="Basic white vase" className="w-24 h-24 object-cover"/>
+                        <Image src="https://placehold.co/100x100" alt="Basic white vase" className="w-24 h-24 object-cover"/>
                         <div>
                             <h2 className="font-semibold text-lg sm:text-xl">Basic white vase</h2>
                             <p className="text-gray-500">Beautiful and simple this is one for the classics</p>

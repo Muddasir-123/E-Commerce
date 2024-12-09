@@ -1,8 +1,9 @@
+import Image from 'next/image'
 export default function App4() {
     return (
         <div className="relative w-full h-screen flex items-center justify-center">
             {/* Background Image */}
-            <img 
+            <Image
                 src="https://placehold.co/1920x1080" 
                 alt="Background with a shadow on a wall" 
                 className="absolute w-full h-full object-cover"

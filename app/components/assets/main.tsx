@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Main = () => {
     return (
         <div className="font-sans">
@@ -5,7 +6,7 @@ const Main = () => {
             <div className="w-full flex flex-col lg:flex-row items-center justify-center bg-white py-10 px-6">
                 {/* Image Section */}
                 <div className="w-full lg:w-1/2 flex justify-center mb-6 lg:mb-0">
-                    <img 
+                    <Image 
                         src="https://placehold.co/720x480" 
                         alt="Modern living room with a black sofa and a plant" 
                         className="w-full h-auto object-cover rounded-lg shadow-lg"
